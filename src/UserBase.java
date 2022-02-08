@@ -28,7 +28,7 @@ public class UserBase {
             }
 
             if (fN.equals("p") || lN.equals("p") || tN.equals("p")) {
-                System.out.println("Введие индекс:");
+                System.out.println("Введие индекс: от 1 до 10");
                 int n = scanner.nextInt();
                 User.userPrint(userBase[n - 1]);
             }
