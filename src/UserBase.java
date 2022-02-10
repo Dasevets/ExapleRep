@@ -11,7 +11,7 @@ public class UserBase {
             String fN = scanner.nextLine();
             System.out.println("Введие фамилию:");
             String lN = scanner.nextLine();
-            System.out.println("Введие номер:");
+            System.out.println("Введите номер, пожалуйста");
             String tN = scanner.nextLine();
 
 
