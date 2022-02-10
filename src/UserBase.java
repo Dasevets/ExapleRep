@@ -7,7 +7,9 @@ public class UserBase {
 
         for (int i = 0; i < userBase.length; i++) {
             System.out.println("Введите данные:");
+            System.out.println("Введите имя:");
             String fN = scanner.nextLine();
+            System.out.println("Введие фамилию:");
             String lN = scanner.nextLine();
             String tN = scanner.nextLine();
 
